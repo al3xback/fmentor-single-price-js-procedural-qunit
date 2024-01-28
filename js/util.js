@@ -12,8 +12,8 @@ const createLayoutComponents = () => {
 		sectionJoinCommunityTitleEl.className = 'card__title';
 		sectionJoinCommunityTitleEl.textContent = 'Join our community';
 
-		const sectionJoinCommunitySubtitleEl = document.createElement('mark');
-		sectionJoinCommunitySubtitleEl.className = 'card__mark';
+		const sectionJoinCommunitySubtitleEl = document.createElement('p');
+		sectionJoinCommunitySubtitleEl.className = 'card__subtitle';
 		sectionJoinCommunitySubtitleEl.textContent =
 			'30-day, hassle-free money back guarantee';
 
